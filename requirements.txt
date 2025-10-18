@@ -1,0 +1,8 @@
+flwr==1.12.0
+torch>=2.0.0
+numpy
+pandas
+scikit-learn
+imbalanced-learn
+matplotlib
+seaborn
