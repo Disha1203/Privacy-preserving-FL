@@ -57,6 +57,7 @@ Notebooks/
 
 ### 2. Simulation Notebooks
 
+- `Central_learning.ipynb` - simulates centralised learning to compared with federated learning
 - `FL_non_iid.ipynb` – simulates FL with **non-IID client data**.  
 - `FL_iid.ipynb` – simulates FL with **IID client data**.  
 - `gradient_leakage.ipynb` – demonstrates **gradient leakage attacks** and the effect of:
