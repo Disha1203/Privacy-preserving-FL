@@ -120,6 +120,24 @@ This project implements **Federated Learning (FL)** using **Flower (FLwr)** loca
      - Recall  
      - Confusion Matrix  
      - ROC-AUC (if implemented)
+    
+## To Run the Notebooks
+
+This repository also contains **Jupyter notebooks** for simulating Federated Learning experiments and privacy scenarios:
+
+- `FL_non_iid.ipynb` – FL with Non-IID client data  
+- `FL_iid.ipynb` – FL with IID client data  
+- `gradient_leakage.ipynb` – Experiments with/without Differential Privacy (DP) and with Homomorphic Encryption (HE)  
+
+### Steps:
+
+1. **Open Jupyter Lab/Notebook**:
+
+- The notebooks are self-contained simulations; no need to run server.py or client.py.
+- The datasets you upload are used locally within the notebook.
+- All visualizations (metrics, loss curves, ROC-AUC) will be displayed inline in the notebook.
+  
+
 
 
 
