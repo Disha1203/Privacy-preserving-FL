@@ -10,7 +10,7 @@ It contains both a **production-ready FL project** and **simulation notebooks** 
 ## 📁 Repository Structure
 
 ```text
-project/
+FL/
 │
 ├── server.py             # FL server for orchestrating rounds
 ├── client.py             # FL client for local training
@@ -19,7 +19,7 @@ project/
 ├── requirements.txt      # Python dependencies
 ├── Dataset.csv           # Optional dataset for testing
 │
-notebooks/
+Notebooks/
 ├── Central_learning.ipynb # Centralised learning
 ├── FL_non_iid.ipynb       # Simulate FL with Non-IID data
 ├── FL_iid.ipynb           # Simulate FL with IID data
