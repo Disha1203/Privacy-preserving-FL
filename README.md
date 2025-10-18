@@ -62,7 +62,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-## To Run Project Folder
+## To Run FL Folder
 
 This project implements **Federated Learning (FL)** using **Flower (FLwr)** locally  
 
