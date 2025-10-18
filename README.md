@@ -58,5 +58,68 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
+
+## To Run Project Folder
+
+This project implements **Federated Learning (FL)** using **Flower (FLwr)** locally  
+
+### Steps:
+
+1. **Open `n + 1` terminals**:
+   - 1 terminal for the **server**  
+   - `n` terminals for **clients** (number of clients you want to run)
+
+2. **Start the Server**:
+   - In the first terminal, navigate to the project folder:
+     ```bash
+     cd path/to/project
+     ```
+   - Run the server:
+     ```bash
+     python server.py
+     ```
+   - **Optional customization in `server.py`**:
+     ```python
+     num_clients = 3   # Total number of clients
+     num_rounds = 5    # Total FL rounds
+     ```
+
+3. **Start the Clients**:
+   - In each of the `n` terminals, navigate to the project folder:
+     ```bash
+     cd path/to/project
+     ```
+   - Run the client:
+     ```bash
+     python client.py
+     ```
+   - Enter the prompts:
+     ```
+     Enter total number of clients: 3
+     Enter Client ID: 1         # Unique ID for each client
+     
+     ```
+   - Each client:
+     - Loads its dataset portion  
+     - Trains the `SepsisNet` model locally  
+     - Sends updates to the server  
+
+4. **Evaluate the Final Model**:
+   - After training is complete, run:
+     ```bash
+     python evaluate.py
+     ```
+   - Enter the global model `.pth` file number to evaluate:
+     ```
+     Enter global model round to evaluate: 5
+     ```
+   - Output includes:
+     - Accuracy  
+     - F1-score  
+     - Recall  
+     - Confusion Matrix  
+     - ROC-AUC (if implemented)
+
 
 
