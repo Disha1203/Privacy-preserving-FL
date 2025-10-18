@@ -13,7 +13,7 @@ The dataset used in this project is sourced from Kaggle:
 
 To use it:
 1. Download the dataset manually from Kaggle.
-2. Place the files in the `FL/` folder.
+2. Place the file in the `FL/` folder.
 
 Example:
 
@@ -138,9 +138,9 @@ This project implements **Federated Learning (FL)** using **Flower (FLwr)** loca
 
 This repository also contains **Jupyter notebooks** for simulating Federated Learning experiments and privacy scenarios:
 
-- `FL_non_iid.ipynb` – FL with Non-IID client data  
-- `FL_iid.ipynb` – FL with IID client data  
-- `gradient_leakage.ipynb` – Experiments with/without Differential Privacy (DP) and with Homomorphic Encryption (HE)  
+- `FL_non_iid.ipynb` – FL with Non-IID client data which uses FedProx algorithm
+- `FL_iid.ipynb` – FL with IID client data 
+- `gradient_leakage.ipynb` – Experiments with/without Differential Privacy (DP) and with Homomorphic Encryption (HE) to evaluate privacy
 
 ### Steps:
 
