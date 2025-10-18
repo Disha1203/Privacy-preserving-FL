@@ -19,7 +19,7 @@ DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 # --------------------------
 # Load and preprocess dataset
 # --------------------------
-df = pd.read_csv("archive (1)/Dataset.csv")
+df = pd.read_csv("Dataset.csv")
 df.dropna(subset=["SepsisLabel"], inplace=True)
 
 X = df.drop(columns=["SepsisLabel", "Patient_ID"], errors='ignore')
