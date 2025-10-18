@@ -6,23 +6,25 @@ It contains both a **production-ready FL project** and **simulation notebooks** 
 
 ---
 
+
 ## 📁 Repository Structure
 
+```text
 project/
 │
-├── server.py # FL server for orchestrating rounds
-├── client.py # FL client for local training
-├── models.py # SepsisNet model definition
-├── evaluate.py # Evaluate global model
-├── requirements.txt # Python dependencies
-├── Dataset.csv # Optional dataset for testing
+├── server.py             # FL server for orchestrating rounds
+├── client.py             # FL client for local training
+├── models.py             # SepsisNet model definition
+├── evaluate.py           # Evaluate global model
+├── requirements.txt      # Python dependencies
+├── Dataset.csv           # Optional dataset for testing
 │
 notebooks/
-├── FL_non_iid.ipynb # Simulate FL with Non-IID data
-├── FL_iid.ipynb # Simulate FL with IID data
+├── FL_non_iid.ipynb       # Simulate FL with Non-IID data
+├── FL_iid.ipynb           # Simulate FL with IID data
 ├── gradient_leakage.ipynb # Experiments with/without DP and with HE
 
-
+```
 ---
 
 ## How the FL Project Works
