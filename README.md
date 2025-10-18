@@ -20,9 +20,11 @@ project/
 ├── Dataset.csv           # Optional dataset for testing
 │
 notebooks/
+├── Central_learning.ipynb # Centralised learning
 ├── FL_non_iid.ipynb       # Simulate FL with Non-IID data
 ├── FL_iid.ipynb           # Simulate FL with IID data
 ├── gradient_leakage.ipynb # Experiments with/without DP and with HE
+
 
 ```
 ---
