@@ -1,6 +1,7 @@
 # Privacy-Preserving Federated Learning for Sepsis Prediction
 
 Team no: 24
+
 Collorators: Disha R, Chinmayi Shravani Yellanki
 
 This repository demonstrates **Federated Learning (FL)** for **Sepsis Prediction** using **Flower (FLwr)** and **PyTorch**, including experiments on **privacy-preserving techniques** such as **Differential Privacy (DP)** and **Homomorphic Encryption (HE)**.  
