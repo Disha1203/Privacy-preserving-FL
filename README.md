@@ -9,7 +9,7 @@ This repository demonstrates **Federated Learning (FL)** for **Sepsis Prediction
 It contains both a **production-ready FL project** and **simulation notebooks** to explore different setups and threats.
 
 ---
-## 🧠 Dataset
+## Dataset
 
 The dataset used in this project is sourced from Kaggle:
 
@@ -22,7 +22,7 @@ To use it:
 Example:
 
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 FL/
@@ -68,7 +68,7 @@ These notebooks are **educational simulations** and allow experimenting with **d
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 Make sure **Python 3.9+** is installed.  
 
