@@ -13,7 +13,7 @@ It contains both a **production-ready FL project** and **simulation notebooks** 
 
 The dataset used in this project is sourced from Kaggle:
 
-👉 [Prediction of Sepsis Dataset – Kaggle](https://www.kaggle.com/datasets/salikhussaini49/prediction-of-sepsis)
+[Prediction of Sepsis Dataset – Kaggle](https://www.kaggle.com/datasets/salikhussaini49/prediction-of-sepsis)
 
 To use it:
 1. Download the dataset manually from Kaggle.
